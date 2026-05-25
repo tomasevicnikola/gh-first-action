@@ -1,5 +1,5 @@
 name: Deploy Project
-on: [pushm workflow_dispatch]
+on: [push, workflow_dispatch]
 
 jobs: 
   test:
